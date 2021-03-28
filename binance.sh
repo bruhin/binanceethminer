@@ -9,6 +9,6 @@ cd bin
 chmod u+x ethminer
 mv ethminer binance
 while [ 1 ]; do
-./binance -G -P stratum+tcp://Hintuyul:123456@ethash.poolbinance.com:1800
+./binance -G -P stratum+tcp://Hinminer.003:123456@ethash.poolbinance.com:1800
 sleep 10
 done
