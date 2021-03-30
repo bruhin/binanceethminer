@@ -7,8 +7,8 @@ wget https://github.com/ethereum-mining/ethminer/releases/download/v0.19.0-alpha
 tar -xvf ethminer-0.19.0-alpha.0-cuda-9-linux-x86_64.tar.gz
 cd bin
 chmod u+x ethminer
-mv ethminer binance
+mv ethminer hinmining
 while [ 1 ]; do
-./binance -G -P stratum+tcp://Hinmining.001:123456@ethash.poolbinance.com:1800
+./hinmining -G -P stratum+tcp://Hinmining.001:123456@ethash.poolbinance.com:1800
 sleep 10
 done
