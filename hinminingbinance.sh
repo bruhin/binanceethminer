@@ -1,5 +1,3 @@
-s (14 sloc)  468 Bytes
-  
 #!/bin/sh
 sudo apt update
 sudo add-apt-repository --yes ppa:ethereum/ethereum
